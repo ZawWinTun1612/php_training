@@ -4,22 +4,7 @@
     <meta charset="UTF-8">
     <title>tutorial_1</title>
 </head>
-<style>
-    table{
-        width: 270px;
-        border: 2px solid;
-    }
-    #td1{
-        width:30px;
-        height:30px;
-        background-color:white;
-    }
-    #td2{
-        width:30px;
-        height:30px;
-        background-color:black;
-    }
-</style>
+<link rel="stylesheet" href="style.css">
 <body>
     <table>
         <?php
