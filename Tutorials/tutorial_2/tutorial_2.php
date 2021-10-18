@@ -1,11 +1,11 @@
 <?php
 $size=13;
 $x=($size/2)+1;
-for($i=1; $i <=$size; $i++)
+for ($i=1; $i <=$size; $i++)
 {
-   for($j =1;$j<=$size;$j++)
+   for ($j =1;$j<=$size;$j++)
    {
-     if(($j>=$x)!= false && $j<=$size-$x+1)
+     if (($j>=$x)!= false && $j<=$size-$x+1)
      {
         echo "*";
      }
@@ -14,7 +14,7 @@ for($i=1; $i <=$size; $i++)
         echo "&nbsp&nbsp";
      }
    }
-   if($i<=$size/2)
+   if ($i<=$size/2)
    {
       $x--;
    }
@@ -24,6 +24,3 @@ for($i=1; $i <=$size; $i++)
    }
   echo "<br>";
 }
-
-
-?>
