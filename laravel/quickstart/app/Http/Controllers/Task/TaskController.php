@@ -2,12 +2,10 @@
 
 namespace App\Http\Controllers\Task;
 
-use App\Models\Task;
 use App\Contracts\Services\Task\TaskServiceInterface;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\UserRequest;
-use GuzzleHttp\Psr7\Request;
-use Illuminate\Support\Facades\Auth;
+
 
 /**
  * This is Task controller.
